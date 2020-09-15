@@ -1,0 +1,17 @@
+.footer {
+    position: relative;
+	width:100%;
+	min-width: $min-width;
+	order: 3;	
+    -webkit-order: 3;	
+    z-index: 10;
+    background: #343B4C;
+    letter-spacing: 0.125px;
+    font-size: 14px;
+    line-height: 16px; 
+    color: #8D96B2;
+    a {color: #8D96B2;   
+        &:hover {color: #fff;}
+    }
+}
+
