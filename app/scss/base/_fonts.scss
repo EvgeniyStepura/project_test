@@ -1,279 +1,68 @@
+
 @font-face {
-    font-family: 'Rubrik';
-    src: url('../fonts/RubrikNew-SemiBold.eot');
-    src: url('../fonts/RubrikNew-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RubrikNew-SemiBold.woff2') format('woff2'),
-        url('../fonts/RubrikNew-SemiBold.woff') format('woff'),
-        url('../fonts/RubrikNew-SemiBold.ttf') format('truetype'),
-        url('../fonts/RubrikNew-SemiBold.svg#RubrikNew-SemiBold') format('svg');
-    font-weight: 600;
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/DINPro.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/DINPro.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/DINPro.ttf') format('truetype'); /* Safari, Android, iOS */
+font-weight: 400;
     font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rubrik';
-    src: url('../fonts/RubrikNew-Medium.eot');
-    src: url('../fonts/RubrikNew-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/RubrikNew-Medium.woff2') format('woff2'),
-        url('../fonts/RubrikNew-Medium.woff') format('woff'),
-        url('../fonts/RubrikNew-Medium.ttf') format('truetype'),
-        url('../fonts/RubrikNew-Medium.svg#RubrikNew-Medium') format('svg');
-    font-weight: 500;
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro-Bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/DINPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/DINPro-Bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/DINPro-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+font-weight: bold;
     font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rubrik';
-    src: url('../fonts/subset-RubrikNew-Bold.eot');
-    src: url('../fonts/subset-RubrikNew-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/subset-RubrikNew-Bold.woff2') format('woff2'),
-        url('../fonts/subset-RubrikNew-Bold.woff') format('woff'),
-        url('../fonts/subset-RubrikNew-Bold.ttf') format('truetype'),
-        url('../fonts/subset-RubrikNew-Bold.svg#RubrikNew-Bold') format('svg');
-    font-weight: bold;
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro-BoldItalic.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/DINPro-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/DINPro-BoldItalic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/DINPro-BoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+font-weight: bold;
+    font-style: italic;
+font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro-Italic.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/DINPro-Italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/DINPro-Italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/DINPro-Italic.ttf') format('truetype'); /* Safari, Android, iOS */
+font-weight: 400;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro-Medium.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/DINPro-Medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/DINPro-Medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/DINPro-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+font-weight: 500;
     font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rubrik';
-    src: url('../fonts/subset-RubrikNew-Regular.eot');
-    src: url('../fonts/subset-RubrikNew-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/subset-RubrikNew-Regular.woff2') format('woff2'),
-        url('../fonts/subset-RubrikNew-Regular.woff') format('woff'),
-        url('../fonts/subset-RubrikNew-Regular.ttf') format('truetype'),
-        url('../fonts/subset-RubrikNew-Regular.svg#RubrikNew-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro-MediumItalic.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/DINPro-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/DINPro-MediumItalic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/DINPro-MediumItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+font-weight: 500;
+    font-style: italic;
+font-display: swap;
 }
 
-
-
-
-
-
-
-@font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?9z9yc2');
-  src:  url('../fonts/icomoon.eot?9z9yc2#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?9z9yc2') format('truetype'),
-    url('../fonts/icomoon.woff?9z9yc2') format('woff'),
-    url('../fonts/icomoon.svg?9z9yc2#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;   
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-arr_left:before {
-  content: "\e933";
-}
-.icon-arr_right:before {
-  content: "\e937";
-}
-
-.icon-android:before {
-  content: "\e900";
-}
-.icon-arrow:before {
-  content: "\e901";
-}
-.icon-arrow_down:before {
-  content: "\e902";
-}
-.icon-award:before {
-  content: "\e903";
-  color: #f16142;
-}
-.icon-basket:before {
-  content: "\e904";
-  color: #f16142;
-}
-.icon-calendar:before {
-  content: "\e905";
-}
-.icon-card:before {
-  content: "\e906";     
-}
-.icon-chat:before {
-  content: "\e907";
-  color: #8d96b2;
-}
-.icon-check:before {
-  content: "\e908";
-  color: #fff;
-}
-.icon-checkcirc:before {
-  content: "\e909";
-  color: #28bc00;
-}
-.icon-checked:before {
-  content: "\e90a";
-  color: #28bc00;
-}  
-.icon-chevron:before {
-  content: "\e90b";
-}
-.icon-clock:before {
-  content: "\e90c";
-}
-.icon-close:before {
-  content: "\e90e";
-}
-.icon-copy:before {
-  content: "\e90f";
-  color: #8d96b2;
-}
-.icon-crown:before {
-  content: "\e910";
-  color: #ffa500;
-}
-.icon-cup:before {
-  content: "\e911";
-  color: #eef2f4;
-}
-.icon-dice:before {
-  content: "\e912";
-}
-.icon-doublecheck:before {
-  content: "\e913";
-}
-.icon-edit:before {
-  content: "\e914";
-}
-.icon-email:before {
-  content: "\e915";
-}
-.icon-exit:before {
-  content: "\e916";
-}
-.icon-eye:before {
-  content: "\e917";
-}
-.icon-fb:before {
-  content: "\e918";
-}
-.icon-flat:before {
-  content: "\e919";
-}
-.icon-lock:before {
-  content: "\e91a";
-}
-.icon-lt:before {
-  content: "\e91b";
-}
-.icon-magic:before {
-  content: "\e91c";
-}
-.icon-men:before {
-  content: "\e91d";
-}
-.icon-message:before {
-  content: "\e91e";
-  color: #f16142;
-}
-.icon-messenger:before {
-  content: "\e91f";
-  color: #f16142;
-}
-.icon-minus:before {
-  content: "\e920";
-  color: #315efb;
-}
-.icon-phone:before {
-  content: "\e921";
-  color: #8d96b2;
-}
-.icon-play:before {
-  content: "\e922";
-}
-.icon-plus:before {
-  content: "\e923";
-  color: #315efb;
-}
-.icon-plusminus:before {
-  content: "\e924";
-}
-.icon-quest:before {
-  content: "\e925";
-}
-.icon-quote:before {
-  content: "\e926";
-  color: #f16142;
-}
-.icon-rating:before {
-  content: "\e90d";
-  color: #ffa500;
-}
-.icon-refresh:before {
-  content: "\e928";
-}
-.icon-rss:before {
-  content: "\e929";
-  color: #f16142;
-}
-.icon-starbg .path1:before {
-  content: "\e92a";
-  color: rgb(0, 182, 122);
-}
-.icon-starbg .path2:before {
-  content: "\e92b";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-star-outline .path1:before {
-  content: "\e92c";
-  color: rgb(0, 0, 0);
-  opacity: 0.0100;
-}
-.icon-star-outline .path2:before {
-  content: "\e92d";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-startr:before {
-  content: "\e92e";
-  color: #00b67a;
-}
-.icon-statistic:before {
-  content: "\e92f";
-  color: #f16142;
-}
-.icon-trash:before {
-  content: "\e930";
-  color: #f16142;
-}
-.icon-user:before {
-  content: "\e931";
-  color: #f16142;
-}
-.icon-users:before {
-  content: "\e932";
-}
-.icon-users_shadow:before {
-  content: "\e933";
-  color: #28bc00;
-}
-.icon-warn:before {
-  content: "\e934";
-}
-.icon-warning:before {
-  content: "\e935";
-}
-.icon-whatsapp:before {
-  content: "\e936";
-  color: #f16142;
-}

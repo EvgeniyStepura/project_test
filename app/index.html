@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-	<title>LottoAGENT</title>
+	<title>project_test</title>
 	<meta name='description' content="" />
 	<meta name="keywords" content="" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico?ver1.0" />
@@ -15,15 +15,52 @@
 	<style>
         .loaded .main-wrapper { opacity: 0;  }
         .loaded .icon-load {    display: block;}
-    </style>
-
+	</style>
 </head>
 <body class="loaded">
 <!-- BEGIN BODY -->
 <div class="main-wrapper">	
 <!-- BEGIN CONTENT -->
 	<main class="content">		
-
+		<section class="container-fluid section_project">
+			<div class="row  top-text-wrapper">
+				<div class="col-sm ">
+					<div class="top-text">
+						<h1 class="top-text-h1">РЕАЛИЗОВАННЫЕ ПРОЕКТЫ</h1>
+						<p>Коммуникационное агентство – часть многофункционального холдинга, объединяющего различные компании на территории России и ближнего зарубежья. </p>
+						<p>Наши подходы к организации бизнеса и имеющиеся ресурсы позволяют одинаково эффективно обеспечивать реализацию как крупномасштабных федеральных или международных проектов, так и решать небольшие локальные задачи. Мы находимся в постоянном развитии, расширяя и укрепляя имеющиеся бизнес-направления, а также формируя новые.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-sm ">
+					<div class="project">
+						<div class="project-img js-bg" data-preload="img/projectimg1.jpg"></div>
+						<div class="project-text">республика саха</div>
+						<a href="#" class="cover-link" data-toggle="modal" data-target="#modal1"></a>
+					</div>
+				</div>
+				<div class="col-sm ">
+					<div class="project">
+						<div class="project-img js-bg" data-preload="img/projectimg2.jpg"></div>
+						<div class="project-text">ГАЗПРОМ</div>
+						<a href="#" class="cover-link" data-toggle="modal" data-target="#modal2"></a>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="project">
+						<div class="project-img js-bg" data-preload="img/projectimg3.jpg"></div>
+						<div class="project-text">NOKIA</div>
+						<a href="#" class="cover-link" data-toggle="modal" data-target="#modal3"></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="project-more"><a href="#" class="btn" >загрузить еще</a></div>
+				</div>
+			</div>
+		</section>
 	</main>				 
 <!-- CONTENT EOF  -->
 <!-- BEGIN HEADER -->
@@ -38,22 +75,125 @@
 	</header>	  
 <!-- HEADER EOF   -->
 	<footer class="footer">
-
+		<div class="container-fluid footer_wrapper">
+			<div class="row">
+				<div class="col-md">
+					<div class="footer_contacts">
+						<div class="footer_contacts_title">Контакты</div>
+						<div class="footer_contacts_text">
+							<p>Коммуникационное агентство</p>
+							<p>344000, Россия, г. Ростов-на-Дону ул. Мира, д. 12 <br/>Бизнес–центр «Рост», оф. 104</p>
+						</div>
+						<div class="footer_contacts_info">
+							<div class="footer_contacts_info_tels">
+								<p><a class="footer_tellink" href="tel:+7 (861) 300-11-28 ">+7 (861) 300-11-28 </a></p>
+								<p><a class="footer_tellink" href="tel:+7 (861) 300-11-52 ">+7 (861) 300-11-52  </a></p>
+								<p><a class="footer_tellink" href="tel:+7 (861) 300-11-52 ">+7 (861) 300-11-52  </a></p>
+							</div>
+							<div class="footer_contacts_info_mail">
+								<p><a href="mailto:info@example.com">Email: <br/>info@example.com</a></p>
+								<p><a href="Facebook.com/exampleagency">Facebook.com/exampleagency</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<form  class="feedback" novalidate="" method="POST" id="feedbackForm">
+						<div class="form-group">
+							<input type="text" id="name" class="form-control"  placeholder="Полное имя" required>
+						</div>
+						<div class="form-group">
+							<input type="email" id="email" class="form-control" placeholder="E-mail" required>
+						</div>
+						<div class="form-group">
+							<input type="tel" id="phone" class="form-control" placeholder="Телефон" required>
+						</div>
+						<div class="form-group">
+							<textarea class="feedback_textarea form-control" placeholder="Пожалуйста, опишите задачу"></textarea>
+						</div>
+						<div class="politics_date"><a href="#" class="politics_date_link">Политика обработки персональных данных</a></div>
+						<button type="submit" class="btn btn-white" id="btnSubmit" onclick="return false">ОТПРАВИТЬ ЗАЯВКУ</button>
+					</form>
+				</div>
+			</div>
+		</div>
 	</footer> 
+	<div class="modal modal-project fade" id="modal1" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-uppercase">республика саха</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col"><div class="project-img-modal js-bg" data-preload="img/projectimg1.jpg"></div></div>
+						<div class="col">
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-project fade" id="modal2" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-uppercase">ГАЗПРОМ</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col"><div class="project-img-modal js-bg" data-preload="img/projectimg2.jpg"></div></div>
+						<div class="col">
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-project fade" id="modal3" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-uppercase">NOKIA</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col"><div class="project-img-modal js-bg" data-preload="img/projectimg3.jpg"></div></div>
+						<div class="col">
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+							<p>Lorem ipDsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis, eveniet dicta laboriosam soluta vero inventore consectetur. Excepturi sint nesciunt cumque non pariatur at error dolorem neque perferendis, ut aspernatur.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>		  
 <div class="icon-load"></div>	
 <!-- BODY EOF   -->
-
-
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 	<script src="js/jquery-3.0.0.min.js"></script>
 	<script src="js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="js/components/bootstrap.min.js"></script>
-	<script src="js/components/jquery.fancybox.js"></script>
 	<script src="js/custom.js"></script>
 	
 

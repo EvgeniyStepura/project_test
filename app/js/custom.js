@@ -16,13 +16,7 @@ $(window).on('load',function(){
 	
   setTimeout(function(){
     $('body').removeClass('loaded'); 
-  },700);
-
-
-  setTimeout(function(){
-    $('.butWrapper .tooltip').addClass('show'); 
-  },9000);
-
+  },700)
 });
 /* viewport width */
 function viewport(){
@@ -49,20 +43,23 @@ $(function(){
  	});  
 	/* placeholder*/ 
 
-  $(".header .js-img").each(function () {
+  /*$(".header .js-img").each(function () {
       $(this).attr('src', $(this).data("src"));
+  });*/
+
+  $("#btnSubmit").click(function(event) {
+      // Fetch form to apply custom Bootstrap validation
+      var form = $("#feedbackForm")
+      if (form[0].checkValidity() === false) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+      form.addClass('was-validated');
+      // Perform ajax submit here...
   });
-
-
-  //
-  if ($('.fancybox').length) {
-    $('.fancybox').fancybox({closeExisting: true});
-  }
-
-
 });
-
 //
+
 
 document.addEventListener('DOMContentLoaded', function () {
   
