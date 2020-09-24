@@ -112,7 +112,7 @@ h6, .h6{
     -webkit-order: 2;
 	flex-grow: 1;
     -webkit-flex-grow: 1;  
-    padding-top: 80px;
+	padding-top: 49px;
 }         
 
 /* */
@@ -146,9 +146,8 @@ section {padding: 30px 0;}
 /*-------------section-project-------------------------*/
 
 .section_project{    padding: 0 65px 29px;}
-.top-text-wrapper{margin-bottom: 131px;}
-.top-text{max-width: 1138px; margin:0 auto; text-align: center;}
-.top-text-h1{    margin-bottom: 32px;   letter-spacing: -1.15px;}
+.top-text-wrapper{    margin-bottom: 133px;}
+.top-text-h1{    margin-bottom: 30px;   letter-spacing: -1.15px;}
 
 .project{position:relative; overflow: hidden;
 	&:before{content:''; display:block;     padding-bottom: 96%;}
@@ -175,10 +174,10 @@ section {padding: 30px 0;}
 		background-image: linear-gradient(to top, #25364a, transparent);     opacity: 0.8;
 	}
 }
-
 /*-----------------------------------------------------*/
 @media screen and (max-width: 1023px) {  
 	h1, .h1{font-size: 36px;}
+	body{font-size:16px !important;}
 	.top-text-h1{    margin-bottom: 0;}
 	.top-text-wrapper{    margin-bottom: 70px;}
 	.project .project-text{font-size: 20px;}
@@ -189,6 +188,7 @@ section {padding: 30px 0;}
 }
 @media screen and (max-width: 767px) { 
 	h1, .h1{    font-size: 32px;}
+	body{font-size:14px !important;}
 	.project .project-text{font-size: 15px;     padding: 20px 10px;}
 	.project-more{    padding: 46px 0 16px;}
 	.feedback{max-width: 100%;}
@@ -196,6 +196,8 @@ section {padding: 30px 0;}
 	.footer{padding:30px 0;}
 	.section_project{    padding: 0 15px 29px;}
 	.btn{font-size:16px;}	
+	.top-text-wrapper{margin-bottom:30px;}
+	.project:before{padding-bottom: 50%;}
 }
 @media screen and (max-width: 540px) { 
 	.footer_contacts_title{font-size:30px;}
